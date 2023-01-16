@@ -1,0 +1,36 @@
+.match {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.match-container {
+  margin-top: 40px;
+}
+.matchs {
+  width: 300px;
+  height: 242px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  text-align: center;
+}
+.country-name {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.time-date {
+  margin-top: 0;
+}
+.btn-1 {
+  background-color: #dd0000;
+  color: #ffff;
+}
+.btn-3 {
+  background-color: white;
+  color: black;
+}
+.btn-3 a {
+  text-decoration: none;
+}

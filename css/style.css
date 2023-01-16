@@ -1,0 +1,247 @@
+body {
+  margin: 0 auto;
+}
+
+/* header section css */
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #161616;
+  width: 100%;
+  height: 646px;
+  /* padding: 62px 151px; */
+  margin: auto;
+  align-items: center;
+}
+
+.header-text {
+  margin-left: 106px;
+  color: white;
+}
+.heading {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  margin: auto;
+}
+.header-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 26px;
+  width: 400px;
+  height: 78px;
+}
+.btn-primary {
+  width: 187px;
+  height: 56px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #dd0000;
+  padding: 16px 25px 16px 25px;
+}
+
+.header-img img {
+  width: 581px;
+  height: 613px;
+}
+
+/* blogs section css */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 25% 75%);
+  margin-top: 118px;
+}
+.all-btn {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 250px;
+  margin-left: 40px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #161616;
+}
+
+.btn-1,
+.btn-2,
+.btn-3 {
+  background-color: #ffffff;
+  width: 10rem;
+  height: 50px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  margin: 16px;
+  font-size: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.btn-1 a {
+  text-decoration: none;
+  color: black;
+}
+.btn-3 {
+  background-color: #dd0000;
+  color: white;
+}
+
+.blog {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 3px;
+}
+.post {
+  width: 312px;
+  height: 362px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.transfer-btn {
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.transfer-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+footer {
+  width: 100%;
+  height: 256px;
+  background-color: #161616;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+hr {
+  width: 75%;
+  color: #ffffff;
+}
+.ancnkhor {
+  width: 75%;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+}
+footer .ancnkhor a {
+  text-decoration: none;
+  padding: 25px;
+  margin-top: 25px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer-text {
+  margin-top: 5rem;
+}
+
+/* responsive for mobile phone */
+
+@media screen and (max-width: 576px) {
+  .banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .header-text {
+    margin: auto;
+  }
+  .heading {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .banner-text {
+    text-align: center;
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+    margin: auto;
+  }
+  .header-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .blogs {
+    display: block;
+  }
+  .all-btn {
+    background-color: #ffffff;
+    margin: auto;
+  }
+  .blog {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
+  .ancnkhor {
+    width: 75%;
+  }
+  footer .ancnkhor a {
+    font-size: 10px;
+  }
+}
+
+/* for responsive tablet */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .banner {
+    width: 768px;
+  }
+  .header-text {
+    width: 100%;
+    margin-left: 50px;
+  }
+  /* .heading {
+    line-height: 60px;
+  } */
+  .header-img img {
+    width: 80%;
+  }
+  /* blog section */
+  .blogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .all-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .ancnkhor {
+    width: 100%;
+  }
+  footer .ancnkhor a {
+    font-size: 10px;
+  }
+}
