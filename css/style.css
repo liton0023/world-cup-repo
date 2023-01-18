@@ -158,7 +158,7 @@ footer .ancnkhor a {
 
 @media only screen and (max-width: 559px) {
   .banner {
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,7 +178,7 @@ footer .ancnkhor a {
     line-height: 50px;
   }
   .banner-text {
-    width: 90%;
+    width: 80%;
     font-size: 10px;
     text-align: center;
     /* overflow: hidden;
@@ -195,14 +195,18 @@ footer .ancnkhor a {
     display: block;
   }
   .all-btn {
+    width: 90%;
     background-color: #ffffff;
     margin: auto;
   }
   .blog {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    /* grid-template-columns: 1fr;
+    grid-gap: 10px; */
   }
   .ancnkhor {
     width: 75%;
