@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400;1,700&family=Poppins:wght@300;400&display=swap");
 body {
   margin: 0 auto;
+  font-family: "Poppins", sans-serif;
 }
 
 /* header section css */
@@ -25,8 +27,8 @@ body {
   margin: auto;
 }
 .banner-text {
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 200;
+  font-size: 13px;
   color: #ffffff;
   line-height: 26px;
   width: 400px;
@@ -105,11 +107,13 @@ body {
 .transfer-btn {
   margin-top: 20px;
   font-size: 20px;
+  margin-left: 10px;
   cursor: pointer;
 }
 .transfer-text {
   font-weight: 600;
   font-size: 20px;
+  margin-left: 10px;
   line-height: 20px;
 }
 
@@ -150,10 +154,10 @@ footer .ancnkhor a {
   padding: 25px;
   margin-top: 25px;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 16px;
 }
 .footer-text {
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 /* responsive for mobile phone */
